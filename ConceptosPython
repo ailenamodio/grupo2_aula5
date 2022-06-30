@@ -1,0 +1,22 @@
+10 conceptos clave de Python :snake: :
+
+- print(): es el nombre de la función que toma los argumentos, los convierte en formato legible y envia los datos resultantes al dispositivo de salida.
+
+- Variables: Almacenan resultados, se componen de un nombre y un valor. Una variable se crea cuando se le asigna un valor. La sintaxis es muy facil: se utiliza el nombre
+de la variable deseada, seguido del signo "=" y el valor a asignar en la variable.
+
+- input(): es capaz de leer datos que fueron introducidos por el usuario y pasar esos datos al programa.
+
+- Operador de asignacion:  "=" es un operador de asignacion, por ejemplo: a=b; asigna a la variable a el valor de b.
+
+- Operador de igualdad: "==" es un operador binario, necesita dos argumentos y verifica si son iguales. Por ejemplo: a==b; compara a y b.
+
+- Operador de desigualdad: "!=" compara los valores de los operandos. Si son distintos devuelve TRUE. 
+
+- Comentarios: Para comentar una linea y que esta no sea ejecutada se utiliza "#". Esto se extiende hasta el final de la linea.
+
+- if(): evalua una condición, si esta condición es verdadera, entonces se ejecuta el codigo de la expresión.
+
+- while(): Repite la ejecucion siempre que la condicion se evalue como TRUE.
+
+- for(): establece la variable iteradora en cada valor de una lista, arreglo o cadena y repite el codigo en el cuerpo del bucle for para cada valor de variable iteradora.
