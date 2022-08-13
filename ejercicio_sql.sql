@@ -1,0 +1,24 @@
+CREATE TABLE Dueno
+       (DNI int,
+        NOMBRE VARCHAR(20),
+        APELLIDO VARCHAR(20),
+        TELEFONO int,
+        DIRECCION VARCHAR(20),
+        PRIMARY KEY (DNI)
+        );
+
+CREATE TABLE Perro
+       (ID_PERRO int,
+        NOMBRE VARCHAR(20),
+        FECHA_NAC DATE,
+        SEXO VARCHAR(1),
+        DNI_DUENO int,
+        PRIMARY KEY (ID_PERRO),
+        FOREIGN KEY (DNI_DUENO) REFERENCES DUENO(DNI)
+       );
+
+
+INSERT into Perro VALUES (1,"FIDEO", 26/07/2022, "M", 30121212);
+INSERT into Dueno VALUES (1, "TOMAS", "GOMEZ", 3515050050, "COLON 311");
+
+UPDATE Perro SET FECHA_NAC = 10/05/2022 WHERE NOMBRE="FIDEO";
