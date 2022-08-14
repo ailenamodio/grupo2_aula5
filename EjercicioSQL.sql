@@ -1,0 +1,1 @@
+UPDATE dueno SET Direccion = 'Peru 888' WHERE Direccion = 'Alsina 323'; 
