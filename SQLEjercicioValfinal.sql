@@ -37,5 +37,9 @@ insert into Dueno values (2, "Adriana", "Sanchez", 3546422017, "roma 22");
 insert into Historial values (1, 12/08/2022, 1, "cirugia miembro derecho", 3000);
 insert into Historial values (2, 13/08/2022, 2, "limpieza cuerpo", 1500);
 
+/* ejercicio 10 sql*/
+truncate table Historial
+DBCC CHECKIDENT(Historial, reseed, 0)
+
 
 
